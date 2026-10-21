@@ -1,0 +1,146 @@
+.login-page {
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at top left, #dff6ef, transparent 55%), #f5f8fb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  color: #253449;
+  font-family: Arial, sans-serif;
+}
+.login-card {
+  background: white;
+  border: 1px solid #e3eaf0;
+  border-radius: 20px;
+  padding: 36px;
+  width: 100%;
+  max-width: 460px;
+  box-shadow: 0 18px 60px #223c5010;
+}
+.login-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #098f83;
+  font-weight: 700;
+  font-size: 24px;
+}
+.login-brand small {
+  display: block;
+  font-size: 11px;
+  color: #788699;
+  font-weight: 400;
+  margin-top: 3px;
+}
+.login-card h1 {
+  font-size: 25px;
+  margin: 30px 0 10px;
+}
+.login-card p {
+  font-size: 13px;
+  color: #738094;
+  line-height: 1.6;
+}
+.login-card label {
+  display: grid;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d6dfe7;
+  border-radius: 8px;
+  font: inherit;
+  box-sizing: border-box;
+}
+.login-card input:focus {
+  outline: 2px solid #72c9bb;
+  outline-offset: 2px;
+}
+.login-password {
+  display: flex;
+  position: relative;
+}
+.login-password input {
+  padding-right: 45px;
+}
+.login-password button {
+  position: absolute;
+  right: 8px;
+  top: 9px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  color: #738094;
+}
+.login-card .login-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+}
+.login-check input {
+  width: auto;
+}
+.login-hint {
+  display: block;
+  font-size: 11px;
+  color: #738094;
+  line-height: 1.6;
+}
+.login-submit {
+  width: 100%;
+  padding: 13px;
+  background: #098f83;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  border-radius: 9px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.login-card button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+.login-card details {
+  border-top: 1px solid #e3eaf0;
+  margin-top: 26px;
+  padding-top: 20px;
+  font-size: 12px;
+}
+.login-card summary {
+  cursor: pointer;
+  color: #098f83;
+}
+.login-accounts {
+  display: grid;
+  gap: 6px;
+  margin: 14px 0;
+}
+.login-accounts button {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f7fafb;
+  border: 1px solid #e3eaf0;
+  border-radius: 7px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 10px;
+}
+.login-card .login-error {
+  background: #fff0ee;
+  color: #a33232;
+  padding: 10px;
+  border-radius: 8px;
+}
+.login-page footer {
+  font-size: 11px;
+  color: #8a96a6;
+  margin-top: 25px;
+}
